@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/static/js/main.9fbf3d78.js",
+    "static/media/solar-panels2.jpg": "/static/media/solar-panels2.a36f71855a44bd1865b4.jpg",
+    "index.html": "/index.html",
+    "main.9fbf3d78.js.map": "/static/js/main.9fbf3d78.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9fbf3d78.js"
+  ]
+}
