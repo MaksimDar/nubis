@@ -45,7 +45,7 @@ const NavMenu = () => {
                             UK
                         </NavButton>
                         <NavButton>
-                            RU
+                            ES
                         </NavButton>
                     </NavButtons>
                 </NavContainer>

@@ -4,10 +4,9 @@ import MainPage from "./MainPage/MainPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./Footer/Footer";
 import { AppHeader, AppSection } from "./App.styled";
+import { AboutPage } from "./AboutPage/AboutPage";
 
 const App = () => {
-
-    const AboutPage = () => <AppHeader>About Company Page</AppHeader>;
     const ServicesPage = () => <AppHeader>Services Page</AppHeader>;
     const ProjectsPage = () => <AppHeader>Projects Page</AppHeader>;
     const NewsPage = () => <AppHeader>News Page</AppHeader>;

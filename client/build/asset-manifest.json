@@ -1,11 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.9fbf3d78.js",
+    "main.js": "/static/js/main.96484616.js",
     "static/media/solar-panels2.jpg": "/static/media/solar-panels2.a36f71855a44bd1865b4.jpg",
+    "static/media/property.jpg": "/static/media/property.34f65ec2502fee831f6e.jpg",
+    "static/media/climate-change.jpg": "/static/media/climate-change.2bdbb2d1b488960058c9.jpg",
+    "static/media/environment.jpg": "/static/media/environment.416b5c6c8c2955b20087.jpg",
+    "static/media/independence.jpg": "/static/media/independence.26c29abd3059b46284ea.jpg",
+    "static/media/sustainability.jpg": "/static/media/sustainability.f03c4ce44929cf2a7c5e.jpg",
+    "static/media/electricity-costs.jpg": "/static/media/electricity-costs.2c1623e8e4b0dd9d6c2d.jpg",
     "index.html": "/index.html",
-    "main.9fbf3d78.js.map": "/static/js/main.9fbf3d78.js.map"
+    "main.96484616.js.map": "/static/js/main.96484616.js.map"
   },
   "entrypoints": [
-    "static/js/main.9fbf3d78.js"
+    "static/js/main.96484616.js"
   ]
 }
