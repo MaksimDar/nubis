@@ -1,23 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import NavMenu from "./NavMenu/NavMenu";
 import MainPage from "./MainPage/MainPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./Footer/Footer";
 import { AppHeader, AppSection } from "./App.styled";
 import { AboutPage } from "./AboutPage/AboutPage";
+import { useTranslation } from "react-i18next";
+import { useLanguage } from "./LanguageContext";
+
 
 const App = () => {
-    const ServicesPage = () => <AppHeader>Services Page</AppHeader>;
+    const { t } = useTranslation();
+    const { lang } = useLanguage();
+
+    const ServicesPage = () => <AppHeader>{t("services_page_title")}</AppHeader>;
     const ProjectsPage = () => <AppHeader>Projects Page</AppHeader>;
     const NewsPage = () => <AppHeader>News Page</AppHeader>;
     const ContactsPage = () => <AppHeader>Contacts Page</AppHeader>;
     return (
+
         <Router>
             <header>
                 <NavMenu />
             </header>
             <main>
-                <Routes>
+                <Routes key={lang}>
                     <Route path="/" element={<MainPage />} />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/services" element={<ServicesPage />} />
@@ -34,3 +41,5 @@ const App = () => {
 };
 
 export default App;
+
+

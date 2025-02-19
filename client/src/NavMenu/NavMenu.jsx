@@ -1,7 +1,14 @@
 import React from "react";
 import { NavSpan, NavSection, NavContainer, NavList, NavigationLink, NavItem, NavButtons, ContactItem, ContactList, ContactLink, NavButton } from "./NavMenu.styled";
 
+import { useTranslation } from "react-i18next";
+import { useLanguage } from "../LanguageContext";
+
 const NavMenu = () => {
+    const { t } = useTranslation();
+    const { lang, changeLanguage } = useLanguage();
+
+
     return (
         <>
             <NavSection>
@@ -9,22 +16,22 @@ const NavMenu = () => {
                     <NavSpan>Nubis</NavSpan>
                     <NavList>
                         <NavItem>
-                            <NavigationLink to="/">Головна</NavigationLink>
+                            <NavigationLink to="/">{t("home")}</NavigationLink>
                         </NavItem>
                         <NavItem>
-                            <NavigationLink to="/about">Про компанію</NavigationLink>
+                            <NavigationLink to="/about">{t("about")}</NavigationLink>
                         </NavItem>
                         <NavItem>
-                            <NavigationLink to="/services">Послуги</NavigationLink>
+                            <NavigationLink to="/services">{t("services")}</NavigationLink>
                         </NavItem>
                         <NavItem>
-                            <NavigationLink to="/projects">Проекти</NavigationLink>
+                            <NavigationLink to="/projects">{t("projects")}</NavigationLink>
                         </NavItem>
                         <NavItem>
-                            <NavigationLink to="/news">Новини</NavigationLink>
+                            <NavigationLink to="/news">{t("news")}</NavigationLink>
                         </NavItem>
                         <NavItem>
-                            <NavigationLink to="/contacts">Контакти</NavigationLink>
+                            <NavigationLink to="/contacts">{t("contacts")}</NavigationLink>
                         </NavItem>
                     </NavList>
                     <ContactList>
@@ -38,15 +45,8 @@ const NavMenu = () => {
                         </ContactItem>
                     </ContactList>
                     <NavButtons>
-                        <NavButton>
-                            UA
-                        </NavButton>
-                        <NavButton>
-                            UK
-                        </NavButton>
-                        <NavButton>
-                            ES
-                        </NavButton>
+                        <NavButton onClick={() => changeLanguage("uk")}>UA</NavButton>
+                        <NavButton onClick={() => changeLanguage("en")}>EN</NavButton>
                     </NavButtons>
                 </NavContainer>
             </NavSection>
