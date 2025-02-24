@@ -1,11 +1,13 @@
 import React from "react";
 import { Section, HeroTitle } from "./HeroSection.styled";
+import { useTranslation } from "react-i18next";
 
 const HeroSection = () => {
+    const { t } = useTranslation()
     return (
         <>
             <Section>
-                <HeroTitle>Заряджаємо Україну сонцем – освітлюємо майбутнє разом!</HeroTitle>
+                <HeroTitle>{t("hero_title")}</HeroTitle>
 
             </Section>
         </>

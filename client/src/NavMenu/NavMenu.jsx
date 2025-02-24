@@ -36,11 +36,11 @@ const NavMenu = () => {
                     </NavList>
                     <ContactList>
                         <ContactItem>
-                            <ContactLink href="mailto:example@gmail.com">example@gmail.com</ContactLink>
+                            <ContactLink href="mailto:nubis.energy@gmail.com">nubis.energy@gmail.com</ContactLink>
                         </ContactItem>
                         <ContactItem>
-                            <ContactLink href="tel:+38 000 000 00 00">
-                                +38 000 000 00 00
+                            <ContactLink href="tel:+380975522908">
+                                +38 097 552 29 08
                             </ContactLink>
                         </ContactItem>
                     </ContactList>

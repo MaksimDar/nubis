@@ -24,9 +24,9 @@ const App = () => {
                 <NavMenu />
             </header>
             <main>
-                <Routes key={lang}>
+                <Routes >
                     <Route path="/" element={<MainPage />} />
-                    <Route path="/about" element={<AboutPage />} />
+                    <Route path="/about" element={<AboutPage key={lang} />} />
                     <Route path="/services" element={<ServicesPage />} />
                     <Route path="/projects" element={<ProjectsPage />} />
                     <Route path="/news" element={<NewsPage />} />

@@ -15,7 +15,6 @@ const AboutPage = () => {
 
     return (
         <>
-            <h1>{t("home")}</h1>
             <Introduction key={lang} />
             <Biography />
             <Services />
