@@ -13,7 +13,7 @@ const NavMenu = () => {
         <>
             <NavSection>
                 <NavContainer>
-                    <NavSpan>Nubis</NavSpan>
+                    <NavSpan>Nubis.Energy</NavSpan>
                     <NavList>
                         <NavItem>
                             <NavigationLink to="/">{t("home")}</NavigationLink>

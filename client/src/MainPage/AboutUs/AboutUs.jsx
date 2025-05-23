@@ -6,9 +6,9 @@ const AboutUs = () => {
         <>
             <AboutSection>
                 <AboutContainer>
-                    <AboutHeadline>Ми — Nubis</AboutHeadline>
+                    <AboutHeadline>Ми — U.BIS.ENERGY LLC</AboutHeadline>
                     <AboutParagraph>
-                        У Nubis ми прагнемо революціонізувати споживання енергії,
+                        У U.BIS.ENERGY LLC ми прагнемо революціонізувати споживання енергії,
                         пропонуючи інноваційні сонячні рішення. Наша місія —
                         зробити чисту відновлювану енергію доступною для кожного.
                         Ми поєднуємо передові технології з бездоганним
