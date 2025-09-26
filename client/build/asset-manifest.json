@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.ab082189.js",
+    "main.js": "/static/js/main.e3958732.js",
     "static/media/nubis.jpg": "/static/media/nubis.81cdb66bc6cfdaec7f2a.jpg",
     "static/media/solar-panels2.jpg": "/static/media/solar-panels2.a36f71855a44bd1865b4.jpg",
     "static/media/property.jpg": "/static/media/property.34f65ec2502fee831f6e.jpg",
@@ -11,9 +11,9 @@
     "static/media/electricity-costs.jpg": "/static/media/electricity-costs.2c1623e8e4b0dd9d6c2d.jpg",
     "static/media/icons.svg#icon-instagram": "/static/media/icons.7f0a6f5c987721540526684b76ce3495.svg",
     "index.html": "/index.html",
-    "main.ab082189.js.map": "/static/js/main.ab082189.js.map"
+    "main.e3958732.js.map": "/static/js/main.e3958732.js.map"
   },
   "entrypoints": [
-    "static/js/main.ab082189.js"
+    "static/js/main.e3958732.js"
   ]
 }
