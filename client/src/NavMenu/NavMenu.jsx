@@ -30,9 +30,9 @@ const NavMenu = () => {
                         <NavItem>
                             <NavigationLink to="/news">{t("news")}</NavigationLink>
                         </NavItem> */}
-                        <NavItem>
+                        {/* <NavItem>
                             <NavigationLink to="/contacts">{t("contacts")}</NavigationLink>
-                        </NavItem>
+                        </NavItem> */}
                     </NavList>
                     <ContactList>
                         <ContactItem>

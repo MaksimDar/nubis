@@ -16,7 +16,7 @@ const App = () => {
     const ServicesPage = () => <AppHeader>{t("services_page_title")}</AppHeader>;
     const ProjectsPage = () => <AppHeader>Projects Page</AppHeader>;
     const NewsPage = () => <AppHeader>News Page</AppHeader>;
-    const ContactsPage = () => <AppHeader>Contacts Page</AppHeader>;
+    // const ContactsPage = () => <AppHeader>Contacts Page</AppHeader>;
     return (
 
         <Router>
@@ -30,7 +30,7 @@ const App = () => {
                     {/* <Route path="/services" element={<ServicesPage />} />
                     <Route path="/projects" element={<ProjectsPage />} />
                     <Route path="/news" element={<NewsPage />} /> */}
-                    <Route path="/contacts" element={<ContactsPage />} />
+                    {/* <Route path="/contacts" element={<ContactsPage />} /> */}
                 </Routes>
             </main>
             <footer>
